@@ -16,3 +16,26 @@ server:
 spring:
   application:
     name: Servicio-Principal
+    
+    
+#SECURITY
+
+server:
+  context-path: /inicio
+  session:
+    cookie:
+      name: UISESSION
+security:
+  basic:
+    enabled: false
+   oauth2:
+    client:
+      clientId: ClientId
+      clientSecret: secret
+      accessTokenUri: http://localhost:8081/auth/oauth/token
+      userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:8081/auth/principal
+spring:
+  thymeleaf:
+    cache: false
