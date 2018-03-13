@@ -28,7 +28,7 @@ server:
 security:
   basic:
     enabled: false
-   oauth2:
+  oauth2:
     client:
       clientId: ClientId
       clientSecret: secret
