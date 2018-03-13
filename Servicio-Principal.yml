@@ -13,7 +13,21 @@ spring:
     name: Servicio-Principal
   thymeleaf:
     cache: false
-    
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+     properties:
+      hibernate:
+        dialect:org.hibernate.dialect.MYSQL5Dialect
     
 #SECURITY
 
@@ -34,4 +48,3 @@ security:
       userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
     resource:
       userInfoUri: http://localhost:8081/auth/principal
-
