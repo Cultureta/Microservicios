@@ -7,11 +7,6 @@ eureka:
   instance:
     hostname: localhost
 
-
-#PORT
-server:
-  port: 1111
-
 #SPRING
 spring:
   application:
@@ -21,6 +16,7 @@ spring:
 #SECURITY
 
 server:
+  port: 1111
   context-path: /inicio
   session:
     cookie:
