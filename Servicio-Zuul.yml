@@ -21,5 +21,9 @@ zuul:
       path: /mensaje/**
       serviceId: Servicio-Principal
       stripPrefix: false
+    cliente:
+      path: /to-read/**
+      serviceId: Servicio-Cliente
+      stripPrefix: false
     
 
