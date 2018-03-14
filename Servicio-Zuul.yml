@@ -21,5 +21,8 @@ zuul:
       path: /mensaje/**
       serviceId: Servicio-Principal
       stripPrefix: false
- 
+    main:
+      path: https://localhost:1111/
+      serviceId: Servicio-Principal
+      stripPrefix: false
 
