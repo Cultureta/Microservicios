@@ -20,6 +20,7 @@ zuul:
     mensaje:
       path: /mensaje/**
       serviceId: Servicio-Principal
+      url: http://localhost:1111/test
       stripPrefix: false
     index:
       path: /index.html
