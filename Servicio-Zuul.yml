@@ -12,6 +12,8 @@ server:
 
 zuul:
   #prefix: /api
+  route:
+    home: /
   routes:
     test:
       path: /test/**
