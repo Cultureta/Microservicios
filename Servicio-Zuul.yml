@@ -11,6 +11,7 @@ server:
   port: 4444
 
 zuul:
+  prefix: /api
   routes:
     servicio-cliente: /client/**
     servicio-principal: /main/**
