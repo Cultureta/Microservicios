@@ -8,3 +8,8 @@ eureka:
     fetchRegistry: false
     server:
       waitTimeInMsWhenSyncEmpty: 0
+      
+turbine:
+  aggregator:
+    clusterConfig: SAMPLE-HYSTRIX-AGGREGATE
+    appConfig: SAMPLE-HYSTRIX-AGGREGATE
