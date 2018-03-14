@@ -11,17 +11,11 @@ server:
   port: 4444
 
 zuul:
-  prefix: /api
+  #prefix: /api
   routes:
-    servicio-cliente: /client/**
-    servicio-principal: /main/**
-  debug:
-    request: true
-  
-hystrix:
-  command:
-    default:
-      execution: 
-        isolation:
-          thread:
-            timeoutInMilliseconds: 2500
+    test:
+      path: /test/**
+      serviceId: Servicio-Principal
+      stripPrefix: false
+ 
+
