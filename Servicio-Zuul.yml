@@ -26,6 +26,13 @@ zuul:
       serviceId: Servicio-Cliente
       stripPrefix: false
       
+hystrix:
+  command:
+    Servicio-Cliente:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2500   
  #hystrix:
   #command: 
     #default:
