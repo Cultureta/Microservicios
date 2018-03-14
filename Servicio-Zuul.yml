@@ -17,5 +17,9 @@ zuul:
       path: /test/**
       serviceId: Servicio-Principal
       stripPrefix: false
+    mensaje:
+      path: /mensaje/**
+      serviceId: Servicio-Principal
+      stripPrefix: false
  
 
