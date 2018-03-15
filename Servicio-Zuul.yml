@@ -15,7 +15,7 @@ zuul:
   routes:
     prueba:
       path: /prueba/**
-      serviceId: Servicio-Principal
+      serviceId: Servicio-Cliente
       url: http://localhost:1111
       stripPrefix: false
     cliente:
