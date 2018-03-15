@@ -13,12 +13,8 @@ server:
 zuul:
   #prefix: /api
   routes:
-    test:
-      path: /inicio/test/**
-      serviceId: Servicio-Principal
-      stripPrefix: false
     prueba:
-      path: /inicio/prueba/**
+      path: /prueba/**
       serviceId: Servicio-Principal
       url: http://localhost:1111
       stripPrefix: false
