@@ -12,8 +12,6 @@ spring:
   application:
     name: Servicio-Principal
   thymeleaf:
-    prefix: classpath:/templates/views/
-    suffix: .html
     cache: false
   datasource:
     url: jdbc:mysql://localhost:3306/test
