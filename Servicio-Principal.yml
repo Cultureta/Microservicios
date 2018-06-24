@@ -33,21 +33,21 @@ spring:
 
 server:
   port: 1111
-  #context-path: /inicio
-  #session:
-    #cookie:
-      #name: UISESSION
-#security:
-  #basic:
-    #enabled: false
-  #oauth2:
-    #client:
-      #clientId: ClientId
-      #clientSecret: secret
+  context-path: /inicio
+  session:
+    cookie:
+      name: UISESSION
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: ClientId
+      clientSecret: secret
       #accessTokenUri: http://localhost:8081/auth/oauth/token
-      #accessTokenUri: http://192.168.1.140:8081/auth/oauth/token
+      accessTokenUri: http://192.168.1.140:8081/auth/oauth/token
       #userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
-      #userAuthorizationUri: http://192.168.1.107:8081/auth/oauth/authorize
-    #resource:
+      userAuthorizationUri: http://192.168.1.107:8081/auth/oauth/authorize
+    resource:
       #userInfoUri: http://localhost:8081/auth/principal
-      #userInfoUri: http://192.168.1.107:8081/auth/principal
+      userInfoUri: http://192.168.1.107:8081/auth/principal
