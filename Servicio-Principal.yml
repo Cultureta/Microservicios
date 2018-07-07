@@ -33,7 +33,7 @@ spring:
 
 server:
   port: 1111
-  context-path: /inicio
+  context-path: /etsidi
   session:
     cookie:
       name: UISESSION
