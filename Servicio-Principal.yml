@@ -33,12 +33,12 @@ spring:
 
 server:
   port: 1111
-  context-path: http://localhost:1111/etsidi/nuevoUsuario/
+  context-path: /etsidi
   session:
     cookie:
       name: UISESSION
 security:
-  ignored: /nuevoUsuario
+  ignored: http://localhost:1111/etsidi/nuevoUsuario/
   basic:
     enabled: false
   oauth2:
