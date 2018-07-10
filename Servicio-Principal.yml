@@ -38,6 +38,7 @@ server:
     cookie:
       name: UISESSION
 security:
+  ignored: /nuevoUsuario
   basic:
     enabled: false
   oauth2:
