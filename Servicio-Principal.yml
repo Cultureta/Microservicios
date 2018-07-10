@@ -38,7 +38,6 @@ server:
     cookie:
       name: UISESSION
 security:
-  ignored: /etsidi/nuevoUsuario/
   basic:
     enabled: false
   oauth2:
