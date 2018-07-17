@@ -10,7 +10,7 @@ eureka:
 #SPRING
 spring:
   application:
-    name: Servicio-Principal
+    name: Servicio-Principal2
   thymeleaf:
     cache: false
   datasource:
