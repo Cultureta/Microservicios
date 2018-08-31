@@ -12,6 +12,5 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream, info, health
-turbine:
-  clusterNameExpression: new String('default')
+        include: /actuator/hystrix.stream
+
