@@ -14,5 +14,4 @@ management:
       exposure:
         include: hystrix.stream, info, health
 turbine:
-  appConfig: WRITING,READING
   clusterNameExpression: new String('default')
