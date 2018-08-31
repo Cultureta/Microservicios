@@ -12,5 +12,5 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream, turbine.stream
+        include: hystrix.stream
 
