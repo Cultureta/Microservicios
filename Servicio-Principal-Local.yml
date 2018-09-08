@@ -35,7 +35,7 @@ spring:
 
 server:
   port: 1110
-#   context-path: /etsidi
+  context-path: /etsidi
 #   session:
 #     cookie:
 #       name: UISESSION
