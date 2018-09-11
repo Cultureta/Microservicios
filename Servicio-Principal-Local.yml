@@ -34,7 +34,7 @@ spring:
 #SECURITY
 
 server:
-  port: 1110
+  port: 1111
   context-path: /etsidi
   session:
     cookie:
