@@ -17,6 +17,8 @@ spring:
     cache: false
   datasource:
     url: jdbc:mysql://localhost:3306/test
+#     username: upm
+#     password: 12345678
     username: upm
     password: 12345678
     driver-class-name: com.mysql.jdbc.Driver
