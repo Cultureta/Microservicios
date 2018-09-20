@@ -17,10 +17,10 @@ spring:
     cache: false
   datasource:
     url: jdbc:mysql://localhost:3306/test
-    username: upm
-    password: 12345678
-#     username: root
-#     password: 
+#     username: upm
+#     password: 12345678
+    username: root
+    password: 
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database: MYSQL
@@ -48,10 +48,10 @@ security:
     client:
       clientId: ClientId
       clientSecret: secret
-#       accessTokenUri: http://localhost:8081/auth/oauth/token
-      accessTokenUri: http://138.100.101.65:18081/auth/oauth/token
-#       userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
-      userAuthorizationUri: http://138.100.101.65:18081/auth/oauth/authorize
+      accessTokenUri: http://localhost:8081/auth/oauth/token
+#       accessTokenUri: http://138.100.101.65:18081/auth/oauth/token
+      userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
+#       userAuthorizationUri: http://138.100.101.65:18081/auth/oauth/authorize
     resource:
-#       userInfoUri: http://localhost:8081/auth/principal
-      userInfoUri: http://138.100.101.65:18081/auth/principal
+      userInfoUri: http://localhost:8081/auth/principal
+#       userInfoUri: http://138.100.101.65:18081/auth/principal
