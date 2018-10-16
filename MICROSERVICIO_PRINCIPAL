@@ -1,0 +1,7 @@
+spring:  
+  application:
+    name: MICROSERVICIO_PRINCIPAL
+  cloud:
+    config:
+      failFast: true
+      uri: localhost:0001
